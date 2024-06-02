@@ -1,0 +1,151 @@
+html{scroll-behavior: smooth;  
+}
+body{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+nav{
+display: flex;
+align-items: center;
+justify-content: center;
+justify-content: space-around;
+text-transform: capitalize;
+
+}
+ul {
+    list-style:none;
+    display: flex;
+    gap: 4rem;
+    
+}
+.navlinks{
+    text-decoration: none;
+    color: #767676;
+    cursor:pointer;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .2s ease-in;
+    
+    
+}
+.navlinks:hover{
+    font-size: 20px;
+    transform: translateY(-2px);
+}
+.btn{
+background-color:  #04ddb2;
+color: white;
+font-size: 18px;
+cursor: pointer;
+text-transform: capitalize;
+position: relative;
+width: 129px;
+height: 48px;
+border-radius: 24px;
+font-weight: 700;
+border: none;
+transition: .2s ease-in-out;
+}
+.btn:hover{
+    font-size: 20px;
+    transform: translateY(-2px)
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+    h2{
+        text-align: center;
+        font-size: 80px;
+        margin: 50px;
+    }
+.diwali{
+    color: #04ddb2;}
+p{
+    text-align: center;
+    font-size: 32px;
+    color: #333333;
+    margin: 0px 0px 40px;
+}
+.img{
+    height: 20%;
+    width: 70%;
+    box-shadow: 10px 5px 10px 15px brown;
+    transition: .2s ease-in;
+   }
+.img:hover{
+    
+    transform: translateY(-5px)
+    
+} 
+section{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0 100px;
+    max-width: 100%;
+    font-size: 70px;
+    margin: 50px;
+}
+.btn2{
+    background-color:  #04ddb2;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    text-transform: capitalize;
+    position: relative;
+    width: 200px;
+    height: 64px;
+    border-radius: 32px;
+    border: none;
+    transition: .2s ease-in-out;
+    }
+    .btn2:hover{
+        font-size: 20px;
+        transform: translateY(-2px)
+    }
+.footeritem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.ftitem1{
+    color:palevioletred;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 5rem;
+    text-align: center;
+}
+.ftitem2{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.ftitem3{
+    color: black;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.ftimag1{
+   justify-content: center;
+   align-items:center;
+   display: flex;
+       }
+    .ftimag2{
+        justify-content: center;
+        align-items:center;
+        display: flex;
+         }
+         .ftimag3{
+            justify-content: center;
+            align-items:center;
+            display: flex;
+             }
+     

@@ -1,3 +1,3 @@
 # myfirstproject
 my first project<br>
-author ankit nivare
+author ankit nivare (project)
